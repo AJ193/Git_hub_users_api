@@ -10,7 +10,7 @@ const Item = ({ user, handleItemClick }) => {
   const handleClick = async () => {
     try {
       setLoading(true);
-      const accessToken = "";
+      const accessToken = "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";
       const response = await fetch(`https://api.github.com/users/${user.login}`, {
         headers: {
           Authorization: `Bearer ${accessToken}`,
