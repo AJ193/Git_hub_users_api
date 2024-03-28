@@ -4,7 +4,7 @@ class GitHubService {
       throw new Error("Empty search query.");
     }
 
-    const accessToken = ""; // Replace with your GitHub Personal Access Token
+    const accessToken = "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"; // Replace with your GitHub Personal Access Token
 
     try {
       const response = await fetch(`https://api.github.com/search/users?q=${query}`, {
